@@ -13,6 +13,10 @@ const rl = readline.createInterface({
 //   process.exit();
 // });
 
+function getDiceValue() {
+  return Math.floor(((Math.random() * 10) % 6) + 1);
+}
+
 function pigDiceGame() {
   const scores = [100, 0];
 
