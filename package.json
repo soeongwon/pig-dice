@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ignisilva/pig-dice/issues"
   },
-  "homepage": "https://github.com/ignisilva/pig-dice#readme"
+  "homepage": "https://github.com/ignisilva/pig-dice#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
