@@ -54,6 +54,7 @@ const switchPlayer = () => {
 }
 
 const endGame = () => {
+  playerName = activePlayer === 0 ? 'player2' : 'player1';
   console.log(`${playerName} is win!!`);
   playing = false;
   rl.close();
