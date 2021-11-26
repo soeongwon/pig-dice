@@ -6,7 +6,7 @@ const message = () => {
   console.log('----------------------------------');
   console.log(`score : ${currentScore}`);
   console.log(`this turn is ${playerName}`);
-  console.log(`total - player1 : ${totalScore[0]} / player2 : ${totalScore[1]} `);
+  console.log(`total - player1 : ${totalScore[1]} / player2 : ${totalScore[0]} `);
   console.log('1. roll dice / 2. hold / 3. exit');
   console.log('----------------------------------');
 }
