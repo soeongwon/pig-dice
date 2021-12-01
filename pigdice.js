@@ -1,5 +1,3 @@
-// Input Code
-
 const readline = require("readline-sync");
 
 function getDiceValue() {
@@ -63,5 +61,3 @@ async function pigDiceGame() {
 }
 
 pigDiceGame();
-
-// --------------------
